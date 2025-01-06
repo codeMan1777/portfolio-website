@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family:'Montserrat', sans-serif;
+    
+}
+h1 {
+    color: rgb(232, 0, 0);
+    text-align: center;
+}
+p {
+    color: white;
+}
