@@ -1,3 +1,59 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(219, 213, 213);
+
+}
+#homeSection {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+
+#aboutSection {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  font-family:'Montserrat', sans-serif;
+}
+#aboutSection h1 {
+  margin: 0;
+  text-align: center;
+  color: rgb(232, 0, 0);
+}
+
+#aboutSection p {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  color: white;
+  
+}
+
+#skillsSection{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  font-family:'Montserrat', sans-serif;
+}
+
+#skillsSection h1{
+  margin: 0;
+  color: rgb(232, 0, 0);
+  text-align: center;
+}
+
+
 .mainNavBar {
     border-radius: 10px 10px 0 0;
     background-color: rgb(32, 32, 32);
@@ -16,11 +72,6 @@
     font-family:'Montserrat', sans-serif;
     
   }
-
-body {
-  margin: 0;
-  background-color: rgb(219, 213, 213);
-}
 
 .homeMessage {
   position: absolute;
@@ -61,19 +112,4 @@ body {
   top: 750px;
   left: 300px;
 }
-
-
-
-#particles-js {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Ensures it stays behind all content */
-  background-color: #000000;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
 
